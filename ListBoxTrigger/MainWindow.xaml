@@ -3,10 +3,16 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ListBoxTrigger"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <ListBox HorizontalAlignment="Center" Height="270" VerticalAlignment="Center" Width="465">
+            <Button>Button</Button>
+            <Expander Header="Expander"/>
+            <sys:DateTime>1/13/2012</sys:DateTime>
+            <sys:DateTime>1/16/2012</sys:DateTime>
+            <sys:DateTime>1/30/2012</sys:DateTime>
+        </ListBox>
     </Grid>
 </Window>
